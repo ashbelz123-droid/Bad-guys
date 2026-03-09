@@ -1,0 +1,8 @@
+services:
+  - type: worker
+    name: betpawa-ghost-v2
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python ghost.py +YOUR_NUMBER_HERE
+    plan: free
+    maxShutdownDelaySeconds: 1
