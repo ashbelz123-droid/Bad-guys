@@ -1,0 +1,9 @@
+cloudscraper==1.2.71
+fake-useragent==1.5.1
+pycryptodome==3.20.0
+redis==5.0.4
+pymongo==4.7.3
+twilio==9.0.5
+asyncio
+aiohttp==3.9.5
+httpx==0.27.0
